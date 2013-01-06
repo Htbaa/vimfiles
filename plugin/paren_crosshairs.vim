@@ -31,7 +31,7 @@ func! s:targetMatchpairs()
     if targetInReticule && !w:targetAcquired
         let w:disengage = "set " . (&cuc ? "cuc" : "nocuc")
                     \. ' ' . (&cul ? "cul" : "nocul")
-        set cuc cul
+        "set cuc cul
         let w:targetAcquired = 1
     elseif !targetInReticule && w:targetAcquired
         exec w:disengage
