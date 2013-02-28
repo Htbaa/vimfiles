@@ -1,7 +1,4 @@
-
-<!-- saved from url=(0075)https://raw.github.com/garybernhardt/dotfiles/master/.vim/colors/grb256.vim -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">" Based on
-runtime colors/ir_black.vim
+" Based on runtime colors/ir_black.vim
 
 let g:colors_name = "grb256"
 
@@ -32,4 +29,3 @@ highlight DiffDelete term=reverse cterm=bold ctermbg=lightred ctermfg=16
 
 highlight PmenuSel ctermfg=16 ctermbg=156
 
-</pre></body></html>
